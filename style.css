@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+/* custom color  */
+.active-menu {
+  color: green !important;
+}
+.bg-red {
+  background: green;
+}
+.text-red {
+  color: green;
+}
+.btn-red {
+  background: green;
+  color: white;
+  transition: all 1s ease;
+}
+.btn-red:hover {
+  border: 1px solid green;
+}
+/* custom color  */
+.slider-area {
+  background-image: linear-gradient(to bottom right, #000000c4, #000000c2),
+    url(img/smm.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin-top: 68px;
+}
+
+.slider-content h1 {
+  font-size: 80px;
+}
+
+/* about area style  */
+img.about-img {
+  height: 95%;
+  width: 100%;
+  background: #e5e5e5;
+}
+.title-p-effect {
+  font-family: inherit;
+  font-size: 21px;
+}
+.title-p-effect::after {
+  content: "";
+  width: 45px;
+  height: 3px;
+  background: green;
+  position: absolute;
+  top: 15px;
+  right: -55px;
+}
+.title-p-effect::before {
+  content: "";
+  width: 45px;
+  height: 3px;
+  background: green;
+  position: absolute;
+  top: 15px;
+  left: -55px;
+}
+
+/* service area style  */
+.card {
+  background: #282727;
+  min-height: 350px;
+  text-align: center;
+  padding: 10px;
+  padding-top: 90px;
+  transition: all 1s ease;
+}
+.card:hover {
+  background: green;
+  transform: scale(1.1);
+}
+.card i {
+  font-size: 50px;
+  transition: all 1s ease;
+}
+.card:hover i {
+  color: #000;
+}
+.card p {
+  font-size: 14px;
+}
+
+/*-------- Skill style  ----------*/
+.skill-content p {
+  text-align: justify;
+}

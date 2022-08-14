@@ -94,3 +94,17 @@ img.about-img {
 .skill-content p {
   text-align: justify;
 }
+
+/* Service page style  */
+
+.service-card img {
+  height: 300px;
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid green;
+}
+
+.service-card p {
+  text-align: justify;
+}

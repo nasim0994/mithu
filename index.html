@@ -97,13 +97,13 @@
               <div class="d-flex flex-column align-items-center position-relative top-50">
                 <h4>Hello, my name is</h4>
                 <h1>Mithun Ahmed</h1>
-                <h2>
+                <h2 class="text-center">
                   I am a
-                  <span class="text-red"
+                  <span class="text-red "
                     >Social Media Marketing Specialist</span
                   >
                 </h2>
-                <small class="w-50 text-center">I'm a Digital Marketing expert with more than 3 years of experience in creating strategies and managing social media.</small>
+                <small class="w-50 text-center d-none d-md-block">I'm a Digital Marketing expert with more than 3 years of experience in creating strategies and managing social media.</small>
                 <a
                   href="#aboutArea"
                   class="btn btn-red text-light fs-5 fw-semibold px-4 mt-4"
@@ -177,7 +177,7 @@
             </p>
           </div>
         </div>
-        <div class="row row-cols-lg-3 g-4 mt-4">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-4">
           <div class="col">
             <div class="card shadow-lg">
               <i class="fas fa-poll text-red pb-3"></i>
@@ -314,7 +314,7 @@
             </div>
             <div class="row pb-2">
               <div class="col-1"><i class="fas fa-envelope text-red fs-4"></i></div>
-              <div class="col-11 fs-5">mithunahmed015@gmail.com</div>
+              <div class="col-11  fs-6 ">mithunahmed015@gmail.com</div>
             </div>
             <div class="row pb-3">
               <div class="col-1"><i class="fas fa-map-marker-alt text-red fs-4"></i></div>
@@ -323,29 +323,27 @@
             <div class="row">
               <div class="col-1 text-red fw-bold fs-5">SL</div>
               <div class="col-6 fw-semibold">
-                <a href="" class="pe-2"><i class="fab fa-facebook-square text-dark fs-4"></i></a>
-                 <a href="" class="pe-2"><i class="fab fa-twitter-square text-dark fs-4"></i></a> 
-                 <a href="" class="pe-2"><i class="fab fa-linkedin text-dark fs-4"></i></div></a>
+                <a href="https://www.facebook.com/mithunahmed015" target="_blank" class="pe-2"><i class="fab fa-facebook-square  fs-4"></i></a>
+                 <a href="" target="_blank" class="pe-2"><i class="fab fa-twitter-square  fs-4"></i></a> 
+                 <a href="https://www.linkedin.com/in/mithun-ahmed-42303117a/" target="_blank" class="pe-2"><i class="fab fa-linkedin fs-4"></i></div></a>
             </div>
           </div>
-          <!-- form  -->
+          <!--Contact form  -->
           <div class="col-lg-7">
-            <h3 class="text-red pb-3">Message me</h3>
-            <form action="">
+            <h3 class="text-red pb-3 mt-md-0 mt-5">Message me</h3>
               <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Full Name</label>
                 <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Name">
               </div>
               <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <label for="exampleFormControlInput2" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
               </div>
               <div class="mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Enter Your Message" rows="3"></textarea>
               </div>
-              <button type="submit" class="btn btn-red fw-semibold">Submit</button>
-            </form>
+              <button id="contact-btn" type="submit" class="btn btn-red fw-semibold">Submit</button
           </div>
         </div>
       </div>
@@ -361,5 +359,6 @@
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>
